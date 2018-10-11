@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Recaf Cloud Provisioner
 
-You can use the [editor on GitHub](https://github.com/roger-borges/recaf-cloud-provisioner/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the Recaf Cloud Provisioner as a supplement your AWS configuration experience. This repository is used to manage the releases, which are free to use.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+There is only one feature available in this super early release:
 
-### Markdown
+- IAM RunAs
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## IAM RunAs
 
-```markdown
-Syntax highlighted code block
+Use the IAM RunAs configuration to set yourself up to access other accounts from your account. This is especially useful if you are in an AWS Organization, or you are a contractor who routinely accesses client accounts using your own account.
 
-# Header 1
-## Header 2
-### Header 3
+## Releases
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/roger-borges/recaf-cloud-provisioner/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You can view the latest releases here: https://github.com/roger-borges/recaf-cloud-provisioner/releases
