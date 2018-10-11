@@ -12,10 +12,18 @@ Use the IAM RunAs configuration to set yourself up to access other accounts from
 
 ## Releases
 
-You can view the latest releases here: https://github.com/roger-borges/recaf-cloud-provisioner/releases
+You can view the latest releases here: [Recaf Cloud Provisioner releases](https://github.com/roger-borges/recaf-cloud-provisioner/releases)
 
 Mac and Windows are supported.
 
 ## Technical Details
 
-This application is written in Electron with Angular 6, and about a million other libraries. 
+This application is written in Electron with Angular 6, and about a million other libraries:
+
+- Angular v6.1.2
+- Electron v2.0.7
+- Electron Builder v20.28.1
+- Angular CLI
+- Angular Material
+- Angular FlexBox
+- AWS-SDK
