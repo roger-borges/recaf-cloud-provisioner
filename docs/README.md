@@ -5,6 +5,10 @@ You can use the Recaf Cloud Provisioner to supplement your AWS configuration exp
 There is only one feature available in this super early release:
 
 - IAM RunAs
+-- All of the features here revolve around easing the complicated nature that AWS's Assume Role functionality sometimes has.
+-- Create a temporary Admin User
+-- Give another account access to your account
+-- Give people in your account access to other accounts
 
 ## IAM RunAs
 
@@ -20,10 +24,9 @@ Mac and Windows are supported.
 
 This application is written in Electron with Angular 6, and about a million other libraries:
 
-- Angular v6.1.2
-- Electron v2.0.7
-- Electron Builder v20.28.1
-- Angular CLI
-- Angular Material
-- Angular FlexBox
-- AWS-SDK
+- Angular v7.0.0
+- Electron v3.0.5
+- Angular CLI v7.0.2
+- Angular Material v7.0.1
+- Angular Flex Layout v7 beta
+- AWS-SDK v2.301.0
